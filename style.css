@@ -1,0 +1,94 @@
+body{
+  background-color: #F2F2F2;
+  padding: 0;
+  margin: 0;
+}
+#info{
+  background-color: #fff; 
+  margin-top: 500px;
+  padding-top: 90px;
+  border-radius: 30px;
+  padding-bottom: 70px;
+  
+}
+#DescPrevisao{
+  
+  font-size: 55px;
+  padding-left: 100px;
+}
+#cabecalho{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0;
+    padding: 0; 
+    background-color: #0C70F2;
+}
+#logoDNC{
+    width: 310px;
+    height: 61px;
+    margin-left: 56px;
+    margin-top: 21px;
+  }
+  #endereco{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 800px;
+    padding-left: 90px;
+  }
+  #previTempo{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 50px;
+  }
+  #image{
+    display: grid;
+    grid-auto-flow: column;
+    padding-right: 200px;
+    margin-bottom: 50px;
+
+  }
+  #resultadoCep{
+    border-radius: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    font-size: 15px;
+    margin-top: 320px;
+    font-size: 25px;
+    
+ 
+  }
+  #recebedados{
+    padding: 400px;
+    padding-top: 0px;
+    border-radius: 20px;
+    
+  }
+li{
+  padding-left: 150px;
+}
+#images{
+  display: grid;
+  grid-auto-flow: column;
+  padding-right: 400px;
+  padding-top: 80px;
+}
+.tabela1{
+  
+ border-radius: 20px 0px 0px 0px;
+}
+.tabela2{
+  border-radius: 0px 20px 0px 0px;
+}
+.tabela3{
+  
+  border-radius: 0px 0px 0px 20px;
+ }
+ .tabela4{
+   border-radius: 0px 0px 20px 0px;
+ }
+ 
+
