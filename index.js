@@ -18,7 +18,7 @@ async function getAddByendereco() {
   bairro.innerHTML = data.bairro;
   cidade.innerHTML = `${data.localidade} / ${data.uf}`;
 }
-async function getTempo() {
+async function getTempo(dateString) {
   const lat = document.getElementById("latitude");
   const long = document.getElementById("longitde");
 
@@ -40,9 +40,9 @@ async function getTempo() {
       const hora = data.getHours();
       console.log(hora);
       console.log(typeof( prevTemp.hourly.time[0]));
-     
-      
-      
+      console.log(Date.parse("2024-04-19T04:00"));
+
+     //Date.parse("2024-04-19T04:00");
 
   } catch (error) {
     alert(error.message);
