@@ -1,94 +1,135 @@
-body{
-  background-color: #F2F2F2;
-  padding: 0;
-  margin: 0;
+
+body {
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  
 }
-#info{
-  background-color: #fff; 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.menu{
+  background-color: #0C70F2;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.menu h1{
+  color: #FFFFFF;
+  font-size: 50px;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+}
+.menu ul li{
+  padding: 10px 30px;
+}
+.menu ul li a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+#info {
+  align-items: center;
+  background-color: #fff;
   margin-top: 500px;
   padding-top: 90px;
   border-radius: 30px;
   padding-bottom: 70px;
   
 }
-#DescPrevisao{
-  
-  font-size: 55px;
-  padding-left: 100px;
-}
-#cabecalho{
-    display: grid;
-    grid-auto-flow: column;
-    margin: 0;
-    padding: 0; 
-    background-color: #0C70F2;
-}
-#logoDNC{
-    width: 310px;
-    height: 61px;
-    margin-left: 56px;
-    margin-top: 21px;
-  }
-  #endereco{
-    display: grid;
-    grid-auto-flow: column;
-    margin-top: 20px;
-    font-size: 18px;
-    margin-left: 800px;
-    padding-left: 90px;
-  }
-  #previTempo{
-    display: grid;
-    grid-auto-flow: column;
-    margin-top: 20px;
-    font-size: 18px;
-    margin-right: 50px;
-  }
-  #image{
-    display: grid;
-    grid-auto-flow: column;
-    padding-right: 200px;
-    margin-bottom: 50px;
 
-  }
-  #resultadoCep{
-    border-radius: 20px;
-    margin-right: 400px;
-    margin-left: 400px;
-    font-size: 15px;
-    margin-top: 320px;
-    font-size: 25px;
-    
- 
-  }
-  #recebedados{
-    padding: 400px;
-    padding-top: 0px;
-    border-radius: 20px;
-    
-  }
-li{
-  padding-left: 150px;
+#DescPrevisao {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 30px;
+  width: 100%;
+  min-width: 500px;
 }
-#images{
+#imge{
   display: grid;
+  padding: 0;
   grid-auto-flow: column;
-  padding-right: 400px;
-  padding-top: 80px;
+  margin-right: 20em;
+  margin-bottom: 25px;
+  position: relative;
+  margin-bottom: 25px;
 }
-.tabela1{
+#prevtempo{
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  margin: 0 auto 3rem auto;
+  max-width: 1150px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+/*
+#prevtempo p{
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  margin: 0;
+  padding: 0px;
   
- border-radius: 20px 0px 0px 0px;
 }
-.tabela2{
+*/
+#info{
+  width: 600px;
+  margin-top: 100px;
+}
+#imgInput img{
+padding: 0px;
+margin: 0px;
+display: flex;
+align-items: center;
+}
+.form-group{
+  padding: 0 2rem;
+}
+.form-group #previsao{
+  display: block;
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+#ResuCEP{
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+#recebedados {
+  padding: 400px;
+  padding-top: 0px;
+  border-radius: 20px;
+}
+#cabecalhoinferior{
+  height: 94px;
+  display: flex;
+  justify-content: flex-end;
+}
+.tabela1 {
+  border-radius: 20px 0px 0px 0px;
+}
+.tabela2 {
   border-radius: 0px 20px 0px 0px;
 }
-.tabela3{
-  
+.tabela3 {
   border-radius: 0px 0px 0px 20px;
- }
- .tabela4{
-   border-radius: 0px 0px 20px 0px;
- }
- 
-
+}
+.tabela4 {
+  border-radius: 0px 0px 20px 0px;
+}
